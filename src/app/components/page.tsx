@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Mictwo from './Mictwo'
+import Mictwo from './mictwo'
 
 function page() {
     return (
