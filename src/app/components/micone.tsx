@@ -25,7 +25,7 @@ const Micone = () => {
         echoCancellation: true,
       }} 
       downloadOnSavePress={true}
-      downloadFileExtension="webm"
+      downloadFileExtension="wav"
     />
       
     </div>
