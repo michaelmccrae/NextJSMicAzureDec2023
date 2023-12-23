@@ -24,8 +24,8 @@ const addAudioElement = (blob: Blob) => {
       <AudioRecorder
         onRecordingComplete={(blob) => addAudioElement(blob)}
         recorderControls={recorderControls}
-        // downloadOnSavePress={true}
-        // downloadFileExtension="mp3"
+        downloadOnSavePress={true}
+        downloadFileExtension="mp3"
         showVisualizer={true}
       />
       <br />
