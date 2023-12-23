@@ -10,7 +10,7 @@ const nextConfig = {
     async headers() {
       return [
         {
-          source: '/components/(.*)',
+          source: '/components',
           headers: [
             {
               key: 'Cross-Origin-Embedder-Policy',
