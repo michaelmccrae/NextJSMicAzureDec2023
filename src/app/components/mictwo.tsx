@@ -1,3 +1,5 @@
+"use client"
+
 import * as React from 'react';
 import { AudioRecorder, useAudioRecorder } from 'react-audio-voice-recorder';
 
