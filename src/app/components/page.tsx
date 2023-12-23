@@ -1,12 +1,12 @@
 import Image from 'next/image'
-import Micone from './micone'
+import Mictwo from './mictwo'
 
 function page() {
     return (
      
         <main>
             <h1>Working</h1>
-            <Micone />
+            <Mictwo />
         </main>
     )
 }
