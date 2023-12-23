@@ -3,7 +3,7 @@
 import * as React from 'react';
 import { AudioRecorder, useAudioRecorder } from 'react-audio-voice-recorder';
 
-function mictwo() {
+function Mictwo() {
   const recorderControls = useAudioRecorder(
     {
       noiseSuppression: true,
@@ -35,4 +35,4 @@ const addAudioElement = (blob: Blob) => {
   );
 }
 
-export default mictwo;
+export default Mictwo;
